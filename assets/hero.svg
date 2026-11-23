@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Haluk — SIMA</title>
+  <desc id="d">SIMA logosu, canlı transkript satırları ve anime tarzı avatar karakter animasyonu.</desc>
+  <style>
+    .f{font-family:'Space Grotesk','Segoe UI',Arial,sans-serif}
+    .big{font-weight:700;font-size:92px;letter-spacing:-2px;fill:#20262E}
+    .sub{font-weight:500;font-size:22px;fill:#626D7A}
+    .tag{font-weight:600;font-size:15px;fill:#285EA8;letter-spacing:2px}
+    .bob{animation:bob 4s ease-in-out infinite}
+    .fl1{animation:fl 5s ease-in-out infinite}
+    .fl2{animation:fl 6s ease-in-out -2s infinite}
+    .blink{animation:blink 5s infinite;transform-box:fill-box;transform-origin:center}
+    .ln{transform-box:fill-box;transform-origin:left center;animation:grow 6s ease-in-out infinite}
+    .ln2{animation-delay:.6s}.ln3{animation-delay:1.2s}.ln4{animation-delay:1.8s}
+    .cur{animation:cur 1s steps(1) infinite}
+    .wave{animation:wave 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.08)}}
+    @keyframes grow{0%{transform:scaleX(0)}35%,85%{transform:scaleX(1)}100%{transform:scaleX(0)}}
+    @keyframes cur{50%{opacity:0}}
+    @keyframes wave{0%,100%{transform:scaleY(.35)}50%{transform:scaleY(1)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect width="1000" height="340" rx="22" fill="#F6F7F9"/>
+  <rect x=".75" y=".75" width="998.5" height="338.5" rx="21" fill="none" stroke="#DDE3EA" stroke-width="1.5"/>
+
+  <!-- logo: üç çizgili yuvarlatılmış kare -->
+  <g transform="translate(56,52)">
+    <rect width="54" height="54" rx="14" fill="#20262E"/>
+    <rect class="ln" x="13" y="15" width="28" height="4" rx="2" fill="#FFFFFF"/>
+    <rect class="ln ln2" x="13" y="25" width="20" height="4" rx="2" fill="#FFFFFF"/>
+    <rect class="ln ln3" x="13" y="35" width="25" height="4" rx="2" fill="#285EA8"/>
+    <text class="f tag" x="72" y="33">TÜRKÇE CANLI TOPLANTI ASİSTANI</text>
+  </g>
+
+  <text class="f big" x="52" y="196">SIMA<tspan fill="#285EA8">.</tspan></text>
+  <text class="f sub" x="56" y="238">Toplantıyı dinler, yazıya döker, özetler.</text>
+  <text class="f sub" x="56" y="268" font-size="17">Haluk · kurucu · hellosima.com<tspan class="cur" fill="#285EA8"> ▍</tspan></text>
+
+  <!-- canlı transkript dalgası -->
+  <g transform="translate(58,292)" fill="#285EA8">
+    <rect class="wave" x="0" y="0" width="5" height="26" rx="2.5" style="animation-delay:0s"/>
+    <rect class="wave" x="12" y="0" width="5" height="26" rx="2.5" style="animation-delay:.2s"/>
+    <rect class="wave" x="24" y="0" width="5" height="26" rx="2.5" style="animation-delay:.4s"/>
+    <rect class="wave" x="36" y="0" width="5" height="26" rx="2.5" style="animation-delay:.1s"/>
+    <rect class="wave" x="48" y="0" width="5" height="26" rx="2.5" style="animation-delay:.5s"/>
+    <rect class="wave" x="60" y="0" width="5" height="26" rx="2.5" style="animation-delay:.3s"/>
+  </g>
+
+  <!-- konuşma balonları -->
+  <g class="fl1">
+    <rect x="560" y="46" width="170" height="62" rx="16" fill="#FFFFFF" stroke="#285EA8" stroke-width="2"/>
+    <rect class="ln" x="578" y="64" width="110" height="6" rx="3" fill="#20262E"/>
+    <rect class="ln ln2" x="578" y="80" width="80" height="6" rx="3" fill="#626D7A"/>
+  </g>
+  <g class="fl2">
+    <rect x="590" y="236" width="150" height="58" rx="16" fill="#EAF0F8" stroke="#285EA8" stroke-width="2"/>
+    <rect class="ln ln3" x="608" y="254" width="100" height="6" rx="3" fill="#285EA8"/>
+    <rect class="ln ln4" x="608" y="270" width="64" height="6" rx="3" fill="#626D7A"/>
+  </g>
+
+  <!-- AVATAR: şeffaf zeminli anime karakter -->
+  <g transform="translate(745,34)">
+    <ellipse cx="110" cy="290" rx="78" ry="9" fill="#20262E" opacity=".10"/>
+    <g class="bob">
+      <!-- gövde / hoodie -->
+      <path d="M40 290 C42 222 66 196 110 196 C154 196 178 222 180 290 Z" fill="#285EA8"/>
+      <path d="M86 196 L110 236 L134 196 Z" fill="#EAF0F8"/>
+      <g transform="translate(97,248)">
+        <rect width="26" height="26" rx="7" fill="#20262E"/>
+        <rect x="6" y="7" width="14" height="2.4" rx="1.2" fill="#fff"/>
+        <rect x="6" y="12" width="10" height="2.4" rx="1.2" fill="#fff"/>
+        <rect x="6" y="17" width="12" height="2.4" rx="1.2" fill="#8FB3E3"/>
+      </g>
+      <!-- boyun -->
+      <rect x="97" y="170" width="26" height="32" rx="10" fill="#E8B98F"/>
+      <!-- arka saç -->
+      <path d="M48 118 C44 56 80 28 112 28 C150 28 176 60 172 118 C170 140 160 150 156 150 L64 150 C58 150 50 140 48 118 Z" fill="#20262E"/>
+      <!-- yüz -->
+      <path d="M62 112 C62 84 84 72 110 72 C136 72 158 84 158 112 C158 148 138 174 110 174 C82 174 62 148 62 112 Z" fill="#F4D2B0"/>
+      <!-- kulak -->
+      <ellipse cx="60" cy="122" rx="7" ry="11" fill="#F4D2B0"/>
+      <ellipse cx="160" cy="122" rx="7" ry="11" fill="#F4D2B0"/>
+      <!-- ön saç / perçem -->
+      <path d="M54 110 C58 60 90 44 114 46 C146 48 168 74 166 110 C158 92 146 84 132 84 C124 96 108 98 98 86 C84 88 68 96 54 110 Z" fill="#20262E"/>
+      <path d="M70 66 L52 40 L88 56 Z M104 50 L100 22 L124 48 Z M136 54 L158 30 L158 66 Z" fill="#20262E"/>
+      <!-- gözler -->
+      <g class="blink">
+        <ellipse cx="88" cy="122" rx="12" ry="15" fill="#FFFFFF"/>
+        <ellipse cx="89" cy="124" rx="8.5" ry="11.5" fill="#285EA8"/>
+        <ellipse cx="89" cy="125" rx="4.4" ry="6.4" fill="#20262E"/>
+        <circle cx="92.5" cy="118" r="3.2" fill="#FFFFFF"/>
+      </g>
+      <g class="blink">
+        <ellipse cx="132" cy="122" rx="12" ry="15" fill="#FFFFFF"/>
+        <ellipse cx="131" cy="124" rx="8.5" ry="11.5" fill="#285EA8"/>
+        <ellipse cx="131" cy="125" rx="4.4" ry="6.4" fill="#20262E"/>
+        <circle cx="134.5" cy="118" r="3.2" fill="#FFFFFF"/>
+      </g>
+      <!-- kaşlar, ağız, yanak -->
+      <path d="M74 100 Q88 94 100 99" stroke="#20262E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <path d="M120 99 Q132 94 146 100" stroke="#20262E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <path d="M99 152 Q110 162 121 152" stroke="#8A4B3A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="78" cy="146" rx="8" ry="4.5" fill="#E9A38F" opacity=".55"/>
+      <ellipse cx="142" cy="146" rx="8" ry="4.5" fill="#E9A38F" opacity=".55"/>
+      <!-- kulaklık + mikrofon -->
+      <path d="M52 118 C48 52 90 24 112 24 C140 24 172 56 168 118" stroke="#626D7A" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <rect x="40" y="108" width="20" height="40" rx="9" fill="#EAF0F8" stroke="#285EA8" stroke-width="3"/>
+      <rect x="160" y="108" width="20" height="40" rx="9" fill="#EAF0F8" stroke="#285EA8" stroke-width="3"/>
+      <path d="M46 146 C50 170 78 176 96 170" stroke="#626D7A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+      <circle cx="98" cy="170" r="5" fill="#285EA8"/>
+    </g>
+  </g>
+</svg>
